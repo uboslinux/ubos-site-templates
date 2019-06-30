@@ -1,0 +1,31 @@
+{
+   "host" : "*",
+   "admin" : {
+      "username" : "admin",
+      "userid" : "admin"
+   },
+
+   "appconfigs" : [
+      {
+         "context" : "",
+         "appid" : "wordpress",
+         "accessoryids" : [
+            "wordpress-plugin-webmention",
+            "wordpress-plugin-bridgy-publish",
+            "wordpress-plugin-semantic-linkbacks",
+            "wordpress-theme-sempress",
+            "wordpress-plugin-indieweb",
+            "wordpress-plugin-indieauth",
+            "wordpress-plugin-social-networks-auto-poster-facebook-twitter-g",
+            "wordpress-plugin-syndication-links",
+            "wordpress-plugin-wp-uf2",
+            "wordpress-plugin-indieweb-post-kinds",
+            "wordpress-plugin-google-analytics-for-wordpress",
+            "wordpress-theme-independent-publisher",
+            "wordpress-plugin-micropub"
+         ]
+      }
+   ],
+
+   "instructiontext" : "This will set up a website running WordPress with the IndieWeb plugins." 
+}

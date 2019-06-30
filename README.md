@@ -1,6 +1,6 @@
-# Templates for common site configurations
+<a href="https://ubos.net/"><img align="right" src="https://raw.githubusercontent.com/uboslinux/ubos-site-templates/master/assets/ubos-160x160.png"></a>
 
-<img align="right" src="https://raw.githubusercontent.com/uboslinux/ubos-site-templates/master/assets/ubos-160x160.png">
+# Templates for common site configurations
 
 If you have a physical or virtual computer running UBOS (see
 [UBOS quickstart](https://ubos.net/quickstart/)), you can quickly set
@@ -25,9 +25,9 @@ sudo ubos-admin createsite --from-template https://github.com/uboslinux/ubos-sit
 
 Provides basic blogging functionality.
 
-| Without encryption                                                     | With Letsencrypt encryption                           |
-|------------------------------------------------------------------------|-------------------------------------------------------|
-| [wordpress.json](https://github.com/uboslinux/ubos-site-templates/...) | https://github.com/uboslinux/ubos-site-templates/...) |
+| Without encryption                                                                            | With Letsencrypt encryption                                                                                           |
+|-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
+| [wordpress.json](https://github.com/uboslinux/ubos-site-templates/blob/master/wordpress.json) | [wordpress-letsencrypt.json](https://github.com/uboslinux/ubos-site-templates/blob/master/wordpress-letsencrypt.json) |
 
 ## WordPress site with IndieWeb plugins
 
