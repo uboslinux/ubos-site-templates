@@ -1,5 +1,4 @@
 {
-   "host" : "*",
    "admin" : {
       "username" : "admin",
       "userid" : "admin"
