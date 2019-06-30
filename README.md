@@ -1,6 +1,11 @@
 <a href="https://ubos.net/"><img align="right" src="https://raw.githubusercontent.com/uboslinux/ubos-site-templates/master/assets/ubos-160x160.png"></a>
+<style>
+div.mytable td {
+    width: 50%;
+}
+</style>
 
-# Templates for common site configurations
+# Templates for common website configurations
 
 If you have a physical or virtual computer running UBOS (see
 [UBOS quickstart](https://ubos.net/quickstart/)), you can quickly set
@@ -21,16 +26,18 @@ Example:
 sudo ubos-admin createsite --from-template https://github.com/uboslinux/ubos-site-templates/blob/master/wordpress.json
 ```
 
-Note: Currently requires UBOS development branch. Will be available in
+Note: Currently requires UBOS on the development branch. Will be available in
 production in the future.
 
 ## Simple WordPress site
 
 Provides basic blogging functionality.
 
+<div class="mytable>
 | Without encryption                                                                            | With Letsencrypt encryption                                                                                           |
 |-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
 | [wordpress.json](https://github.com/uboslinux/ubos-site-templates/blob/master/wordpress.json) | [wordpress-letsencrypt.json](https://github.com/uboslinux/ubos-site-templates/blob/master/wordpress-letsencrypt.json) |
+</div>
 
 ## WordPress site with IndieWeb plugins
 
