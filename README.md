@@ -18,7 +18,7 @@ where `<url>` is the URL you copy-pasted from below.
 Example:
 
 ```
-sudo ubos-admin createsite --from-template https://github.com/uboslinux/ubos-site-templates/blob/master/wordpress.json
+sudo ubos-admin createsite --from-template https://raw.githubusercontent.com/uboslinux/ubos-site-templates/master/wordpress.json
 ```
 
 Note: Currently requires UBOS on the development branch. Will be available in
@@ -30,9 +30,9 @@ production in the future.
 
 Provides basic blogging functionality.
 
-| Without encryption                                                                                      | With Letsencrypt encryption                                                                                                          |
-|---------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
-| [wordpress.json](https://raw.githubusercontent.com/uboslinux/ubos-site-templates/master/wordpress.json) | [wordpress-letsencrypt.json](https://raw.githubusercontent.com/uboslinux/ubos-site-templates/blob/master/wordpress-letsencrypt.json) |
+| Without encryption                                                                                      | With Letsencrypt encryption                                                                                                     |
+|---------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
+| [wordpress.json](https://raw.githubusercontent.com/uboslinux/ubos-site-templates/master/wordpress.json) | [wordpress-letsencrypt.json](https://raw.githubusercontent.com/uboslinux/ubos-site-templates/master/wordpress-letsencrypt.json) |
 
 <img align="right" src="https://raw.githubusercontent.com/uboslinux/ubos-site-templates/master/assets/wordpress-144x144.png">
 
