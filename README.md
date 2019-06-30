@@ -18,8 +18,11 @@ where `<url>` is the URL you copy-pasted from below.
 Example:
 
 ```
-sudo ubos-admin createsite --from-template https://github.com/uboslinux/ubos-site-templates/...
+sudo ubos-admin createsite --from-template https://github.com/uboslinux/ubos-site-templates/blob/master/wordpress.json
 ```
+
+Note: Currently requires UBOS development branch. Will be available in
+production in the future.
 
 ## Simple WordPress site
 
@@ -31,17 +34,40 @@ Provides basic blogging functionality.
 
 ## WordPress site with IndieWeb plugins
 
+Interact with the social web from your own WordPress site, using the [IndieWeb](https://indieweb.org/).
 
+| Without encryption                                                                                              | With Letsencrypt encryption                                                                                                    |
+|-----------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
+| [wordpress-indieweb.json](https://github.com/uboslinux/ubos-site-templates/blob/master/wordpress-indieweb.json) | [wordpress-letsencrypt.json](https://github.com/uboslinux/ubos-site-templates/blob/master/wordpress-indieweb-letsencrypt.json) |
 
-## Simple Known ("IndieWeb") site
+## Simple Known ("native IndieWeb") site
 
+Interact with the social web from your own website, using the [IndieWeb](https://indieweb.org/).
+
+| Without encryption                                                                    | With Letsencrypt encryption                                                                                   |
+|---------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+| [known.json](https://github.com/uboslinux/ubos-site-templates/blob/master/known.json) | [known-letsencrypt.json](https://github.com/uboslinux/ubos-site-templates/blob/master/known-letsencrypt.json) |
 
 ## Nextcloud site with common apps
 
+File sync and share for your own devices, and with others. Also calendaring, contacts and more.
 
-## Personal website with IndieWeb WordPress blog on the front page, and Nextcloud for file sharing and collaboration
+| Without encryption                                                                            | With Letsencrypt encryption                                                                                           |
+|-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
+| [nextcloud.json](https://github.com/uboslinux/ubos-site-templates/blob/master/nextcloud.json) | [nextcloud-letsencrypt.json](https://github.com/uboslinux/ubos-site-templates/blob/master/nextcloud-letsencrypt.json) |
 
+## Personal website with IndieWeb WordPress blog, and Nextcloud for file sharing and collaboration
 
-## Personal website with Known blog on the front page, and Nextcloud for file sharing and collaboration
+| Without encryption                                                                                                                  | With Letsencrypt encryption                                                                                                                                 |
+|-------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [wordpress-indieweb-nextcloud.json](https://github.com/uboslinux/ubos-site-templates/blob/master/wordpress-indieweb-nextcloud.json) | [wordpress-indieweb-nextcloud-letsencrypt.json](https://github.com/uboslinux/ubos-site-templates/blob/master/wordpress-indieweb-nextcloud-letsencrypt.json) |
 
+## Personal website with Known blog, and Nextcloud for file sharing and collaboration
 
+| Without encryption                                                                                        | With Letsencrypt encryption                                                                                                       |
+|-----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| [known-nextcloud.json](https://github.com/uboslinux/ubos-site-templates/blob/master/known-nextcloud.json) | [known-nextcloud-letsencrypt.json](https://github.com/uboslinux/ubos-site-templates/blob/master/known-nextcloud-letsencrypt.json) |
+
+## Questions?
+
+Post to the [forum](https://forum.ubos.net/).
