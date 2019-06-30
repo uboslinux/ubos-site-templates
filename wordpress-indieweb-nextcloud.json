@@ -1,5 +1,5 @@
 {
-   "host" : "*",
+   "hostname" : "*",
    "admin" : {
       "username" : "admin",
       "userid" : "admin"
@@ -36,8 +36,7 @@
             "nextcloud-markdown",
             "nextcloud-news",
             "nextcloud-notes",
-            "nextcloud-spreed",
-            "nextcloud-tasks"
+            "nextcloud-spreed"
          ]
       }
    ],
