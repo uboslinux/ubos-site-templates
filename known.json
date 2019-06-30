@@ -1,0 +1,16 @@
+{
+   "host" : "*",
+   "admin" : {
+      "username" : "admin",
+      "userid" : "admin"
+   },
+
+   "appconfigs" : [
+      {
+         "context" : "",
+         "appid" : "known"
+      }
+   ],
+
+   "instructiontext" : "This will set up a website running Known." 
+}

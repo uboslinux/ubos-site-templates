@@ -1,0 +1,27 @@
+{
+   "host" : "*",
+   "admin" : {
+      "username" : "admin",
+      "userid" : "admin"
+   },
+
+   "appconfigs" : [
+      {
+         "context" : "",
+         "appid" : "nextcloud",
+         "accessoryids" : [
+            "nextcloud-bookmarks",
+            "nextcloud-cache-redis",
+            "nextcloud-calendar",
+            "nextcloud-contacts",
+            "nextcloud-markdown",
+            "nextcloud-news",
+            "nextcloud-notes",
+            "nextcloud-spreed",
+            "nextcloud-tasks"
+         ]
+      }
+   ],
+
+   "instructiontext" : "This will set up a website running Nextcloud with common Nextcloud apps." 
+}

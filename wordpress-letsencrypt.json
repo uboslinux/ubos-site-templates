@@ -1,0 +1,18 @@
+ {
+   "admin" : {
+      "username" : "admin",
+      "userid" : "admin"
+   },
+   "tls" : {
+      "letsencrypt" : true
+   },
+
+   "appconfigs" : [
+      {
+         "context" : "",
+         "appid" : "wordpress"
+      }
+   ],
+
+   "instructiontext" : "This will set up a basic website running WordPress.\nIt will also set up a Letsencrypt certificate for your site.\nImportant: you must have a DNS A record for your to-be-created site pointing to your device, beforing continuing."
+}

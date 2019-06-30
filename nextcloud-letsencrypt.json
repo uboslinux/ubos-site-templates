@@ -1,0 +1,30 @@
+{
+   "host" : "*",
+   "admin" : {
+      "username" : "admin",
+      "userid" : "admin"
+   },
+   "tls" : {
+      "letsencrypt" : true
+   },
+
+   "appconfigs" : [
+      {
+         "context" : "",
+         "appid" : "nextcloud",
+         "accessoryids" : [
+            "nextcloud-bookmarks",
+            "nextcloud-cache-redis",
+            "nextcloud-calendar",
+            "nextcloud-contacts",
+            "nextcloud-markdown",
+            "nextcloud-news",
+            "nextcloud-notes",
+            "nextcloud-spreed",
+            "nextcloud-tasks"
+         ]
+      }
+   ],
+
+   "instructiontext" : "This will set up a website running Nextcloud with common Nextcloud apps.\nIt will also set up a Letsencrypt certificate for your site.\nImportant: you must have a DNS A record for your to-be-created site pointing to your device, beforing continuing."
+}

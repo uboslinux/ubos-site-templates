@@ -1,0 +1,18 @@
+ {
+   "admin" : {
+      "username" : "admin",
+      "userid" : "admin"
+   },
+   "tls" : {
+      "letsencrypt" : true
+   },
+
+   "appconfigs" : [
+      {
+         "context" : "",
+         "appid" : "known"
+      }
+   ],
+
+   "instructiontext" : "This will set up a website running Known.\nIt will also set up a Letsencrypt certificate for your site.\nImportant: you must have a DNS A record for your to-be-created site pointing to your device, beforing continuing."
+}

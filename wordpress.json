@@ -1,0 +1,16 @@
+{
+   "host" : "*",
+   "admin" : {
+      "username" : "admin",
+      "userid" : "admin"
+   },
+
+   "appconfigs" : [
+      {
+         "context" : "",
+         "appid" : "wordpress"
+      }
+   ],
+
+   "instructiontext" : "This will set up a basic website running WordPress." 
+}

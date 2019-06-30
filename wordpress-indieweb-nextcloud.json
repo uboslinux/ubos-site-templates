@@ -1,0 +1,46 @@
+{
+   "host" : "*",
+   "admin" : {
+      "username" : "admin",
+      "userid" : "admin"
+   },
+
+   "appconfigs" : [
+      {
+         "context" : "/blog",
+         "appid" : "wordpress",
+         "accessoryids" : [
+            "wordpress-plugin-webmention",
+            "wordpress-plugin-bridgy-publish",
+            "wordpress-plugin-semantic-linkbacks",
+            "wordpress-theme-sempress",
+            "wordpress-plugin-indieweb",
+            "wordpress-plugin-indieauth",
+            "wordpress-plugin-social-networks-auto-poster-facebook-twitter-g",
+            "wordpress-plugin-syndication-links",
+            "wordpress-plugin-wp-uf2",
+            "wordpress-plugin-indieweb-post-kinds",
+            "wordpress-plugin-google-analytics-for-wordpress",
+            "wordpress-theme-independent-publisher",
+            "wordpress-plugin-micropub"
+         ]
+      },
+      {
+         "context" : "/nextcloud",
+         "appid" : "nextcloud",
+         "accessoryids" : [
+            "nextcloud-bookmarks",
+            "nextcloud-cache-redis",
+            "nextcloud-calendar",
+            "nextcloud-contacts",
+            "nextcloud-markdown",
+            "nextcloud-news",
+            "nextcloud-notes",
+            "nextcloud-spreed",
+            "nextcloud-tasks"
+         ]
+      }
+   ],
+
+   "instructiontext" : "This will set up a website running WordPress with IndieWeb plugins plus Nextcloud with common Nextcloud apps." 
+}
