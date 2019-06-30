@@ -1,7 +1,9 @@
 # Templates for common site configurations
 
+<img style="float: right; margin: 0 0 20px 20px" src="https://raw.githubusercontent.com/uboslinux/ubos-site-templates/master/assets/ubos-160x160.png">
+
 If you have a physical or virtual computer running UBOS (see
-[UBOS quickstart](https://ubos.net/quickstart/), you can quickly set
+[UBOS quickstart](https://ubos.net/quickstart/)), you can quickly set
 up a website with a variety of functionality using one of the following
 site templates.
 
