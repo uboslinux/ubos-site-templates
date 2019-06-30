@@ -30,9 +30,9 @@ production in the future.
 
 Provides basic blogging functionality.
 
-| Without encryption                                                                            | With Letsencrypt encryption                                                                                           |
-|-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
-| [wordpress.json](https://github.com/uboslinux/ubos-site-templates/blob/master/wordpress.json) | [wordpress-letsencrypt.json](https://github.com/uboslinux/ubos-site-templates/blob/master/wordpress-letsencrypt.json) |
+| Without encryption                                                                                      | With Letsencrypt encryption                                                                                                          |
+|---------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| [wordpress.json](https://raw.githubusercontent.com/uboslinux/ubos-site-templates/master/wordpress.json) | [wordpress-letsencrypt.json](https://raw.githubusercontent.com/uboslinux/ubos-site-templates/blob/master/wordpress-letsencrypt.json) |
 
 <img align="right" src="https://raw.githubusercontent.com/uboslinux/ubos-site-templates/master/assets/wordpress-144x144.png">
 
@@ -40,9 +40,9 @@ Provides basic blogging functionality.
 
 Interact with the social web from your own WordPress site, using the [IndieWeb](https://indieweb.org/).
 
-| Without encryption                                                                                              | With Letsencrypt encryption                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
-| [wordpress-indieweb.json](https://github.com/uboslinux/ubos-site-templates/blob/master/wordpress-indieweb.json) | [wordpress-indieweb-letsencrypt.json](https://github.com/uboslinux/ubos-site-templates/blob/master/wordpress-indieweb-letsencrypt.json) |
+| Without encryption                                                                                                        | With Letsencrypt encryption                                                                                                                       |
+|---------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+| [wordpress-indieweb.json](https://raw.githubusercontent.com/uboslinux/ubos-site-templates/master/wordpress-indieweb.json) | [wordpress-indieweb-letsencrypt.json](https://raw.githubusercontent.com/uboslinux/ubos-site-templates/master/wordpress-indieweb-letsencrypt.json) |
 
 <img align="right" src="https://raw.githubusercontent.com/uboslinux/ubos-site-templates/master/assets/known-144x144.png">
 
@@ -50,9 +50,9 @@ Interact with the social web from your own WordPress site, using the [IndieWeb](
 
 Interact with the social web from your own website, using the [IndieWeb](https://indieweb.org/).
 
-| Without encryption                                                                    | With Letsencrypt encryption                                                                                   |
-|---------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| [known.json](https://github.com/uboslinux/ubos-site-templates/blob/master/known.json) | [known-letsencrypt.json](https://github.com/uboslinux/ubos-site-templates/blob/master/known-letsencrypt.json) |
+| Without encryption                                                                              | With Letsencrypt encryption                                                                                             |
+|-------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
+| [known.json](https://raw.githubusercontent.com/uboslinux/ubos-site-templates/master/known.json) | [known-letsencrypt.json](https://raw.githubusercontent.com/uboslinux/ubos-site-templates/master/known-letsencrypt.json) |
 
 <img align="right" src="https://raw.githubusercontent.com/uboslinux/ubos-site-templates/master/assets/nextcloud-144x144.png">
 
@@ -60,27 +60,27 @@ Interact with the social web from your own website, using the [IndieWeb](https:/
 
 File sync and share for your own devices, and with others. Also calendaring, contacts and more.
 
-| Without encryption                                                                            | With Letsencrypt encryption                                                                                           |
-|-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
-| [nextcloud.json](https://github.com/uboslinux/ubos-site-templates/blob/master/nextcloud.json) | [nextcloud-letsencrypt.json](https://github.com/uboslinux/ubos-site-templates/blob/master/nextcloud-letsencrypt.json) |
+| Without encryption                                                                                      | With Letsencrypt encryption                                                                                                     |
+|---------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
+| [nextcloud.json](https://raw.githubusercontent.com/uboslinux/ubos-site-templates/master/nextcloud.json) | [nextcloud-letsencrypt.json](https://raw.githubusercontent.com/uboslinux/ubos-site-templates/master/nextcloud-letsencrypt.json) |
 
 <img align="right" src="https://raw.githubusercontent.com/uboslinux/ubos-site-templates/master/assets/wordpress-144x144.png">
 <img align="right" src="https://raw.githubusercontent.com/uboslinux/ubos-site-templates/master/assets/nextcloud-144x144.png">
 
 ## Personal website with IndieWeb WordPress blog, and Nextcloud for file sharing and collaboration
 
-| Without encryption                                                                                                                  | With Letsencrypt encryption                                                                                                                                 |
-|-------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [wordpress-indieweb-nextcloud.json](https://github.com/uboslinux/ubos-site-templates/blob/master/wordpress-indieweb-nextcloud.json) | [wordpress-indieweb-nextcloud-letsencrypt.json](https://github.com/uboslinux/ubos-site-templates/blob/master/wordpress-indieweb-nextcloud-letsencrypt.json) |
+| Without encryption                                                                                                                            | With Letsencrypt encryption                                                                                                                                           |
+|-----------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [wordpress-indieweb-nextcloud.json](https://raw.githubusercontent.com/uboslinux/ubos-site-templates/master/wordpress-indieweb-nextcloud.json) | [wordpress-indieweb-nextcloud-letsencrypt.json](https://raw.githubusercontent.com/uboslinux/ubos-site-templates/master/wordpress-indieweb-nextcloud-letsencrypt.json) |
 
 <img align="right" src="https://raw.githubusercontent.com/uboslinux/ubos-site-templates/master/assets/known-144x144.png">
 <img align="right" src="https://raw.githubusercontent.com/uboslinux/ubos-site-templates/master/assets/nextcloud-144x144.png">
 
 ## Personal website with Known blog, and Nextcloud for file sharing and collaboration
 
-| Without encryption                                                                                        | With Letsencrypt encryption                                                                                                       |
-|-----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| [known-nextcloud.json](https://github.com/uboslinux/ubos-site-templates/blob/master/known-nextcloud.json) | [known-nextcloud-letsencrypt.json](https://github.com/uboslinux/ubos-site-templates/blob/master/known-nextcloud-letsencrypt.json) |
+| Without encryption                                                                                                  | With Letsencrypt encryption                                                                                                                 |
+|---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| [known-nextcloud.json](https://raw.githubusercontent.com/uboslinux/ubos-site-templates/master/known-nextcloud.json) | [known-nextcloud-letsencrypt.json](https://raw.githubusercontent.com/uboslinux/ubos-site-templates/master/known-nextcloud-letsencrypt.json) |
 
 ## Questions?
 
